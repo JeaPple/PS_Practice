@@ -1,25 +1,26 @@
-package 입출력;
+package baekjoon.입출력;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
-public class B5_11021 {
+public class B4_11720 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
-        StringTokenizer st;
+//        StringTokenizer st;
         String str;
 
         int n = Integer.parseInt(br.readLine());
+        str = br.readLine();
+        int num = 0;
+
         for (int i = 0; i < n; i++) {
-            st = new StringTokenizer(br.readLine());
-            int a = Integer.parseInt(st.nextToken());
-            int b = Integer.parseInt(st.nextToken());
-            sb.append("Case #").append(i+1).append(": ").append(a + b).append("\n");
+            num += str.charAt(i) - '0';
         }
 
-        System.out.println(sb);
+
+        System.out.println(num);
+
     }
 }

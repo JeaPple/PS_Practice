@@ -1,4 +1,4 @@
-package 입출력;
+package baekjoon.입출력;
 
 public class B5_2557 {
     public static void main(String[] args) {

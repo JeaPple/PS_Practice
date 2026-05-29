@@ -1,4 +1,4 @@
-package 입출력.복습;
+package baekjoon.입출력.복습;
 
 import java.io.BufferedReader;
 import java.io.IOException;
